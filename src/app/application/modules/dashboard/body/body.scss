@@ -1,0 +1,138 @@
+.carousel-sec {
+    width: 100%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+
+.carousel-inner {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.carousel-inner img {
+    width: 90%;
+    height: 400px;
+    object-fit: cover;
+    align-items: center;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    border-radius: 15px;
+
+}
+
+.card-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.card {
+
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px;
+    width: 90%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.card-img img:hover {
+transition: transform 0.3s ease-in-out;
+transform: translateY(-6px);
+}
+
+/* Image */
+.card-img {
+    position: relative;
+    display: block;
+    justify-content: center;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+
+}
+
+.card-img img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+/* Badge */
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #ff3e6c;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+/* Body */
+.card-body {
+    padding: 15px;
+}
+
+.product-name {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.brand {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* Price */
+.price {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.current {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.old {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.off {
+    color: #ff3e6c;
+    font-size: 13px;
+}
+
+/* Button */
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #333;
+}
