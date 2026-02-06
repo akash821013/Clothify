@@ -1,0 +1,25 @@
+.top-header {
+    height: 50px;
+    background: linear-gradient(to right, #2b0000, #000);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.auth-btn {
+    background: #6b6b6b;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.logo {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #ffb3b3;
+    padding: 5px 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
