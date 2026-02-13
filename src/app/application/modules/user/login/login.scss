@@ -54,6 +54,7 @@
 .input-box i {
     color: #aaa;
     margin-right: 10px;
+    font-size: 16px;
 }
 
 .input-box input {
@@ -62,7 +63,7 @@
     width: 100%;
     font-size: 14px;
     border-radius: 50px;
-    padding: 5px 20px;
+    padding: 5px 10px;
 }
 
 .forgot {
@@ -75,8 +76,12 @@
     color: #888;
     text-decoration: none;
 }
+.buttons {
+    display: flex;
+    gap: 10px;
+}
 
-.login-btn {
+.login-btn, .reset-btn{
     width: 100%;
     padding: 12px;
     border: none;
